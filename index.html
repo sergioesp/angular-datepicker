@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="test">
+
+<head>
+  <meta charset="UTF-8">
+  <title>angular-datepicker</title>
+
+  <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/dot-luv/jquery-ui.css" />
+</head>
+
+<body>
+
+  <h1>angular-datepicker</h1>
+
+  <h3>Default</h3>
+  <p>
+    <input type="date" jqdatepicker ng-model="testDate">
+    <br>
+    <pre>{{ testDate }}</pre>
+  </p>
+
+  <h3>Custom format</h3>
+  <p>
+    <input type="date" format="dd.mm.y" jqdatepicker ng-model="testDate2">
+    <br>
+    <pre>{{ testDate2 }}</pre>
+  </p>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+
+  <script src="angular-datepicker"></script>
+
+  <script>
+    angular.module('test', ['jqDatepicker']);
+  </script>
+
+</body>
+
+</html>
