@@ -1,5 +1,5 @@
 /**
- * angular-datepicker v1.0.0
+ * angular-datepicker v1.0.2
  * 2015 Tibor Cz, http://microtroll.github.io/angular-datepicker
  * License: MIT
  */
